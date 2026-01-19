@@ -10,6 +10,13 @@ export interface Coin {
   sparkline: number[];
 }
 
+export interface User {
+  id: string;
+  email: string;
+  name: string;
+  balanceUsdt: number;
+}
+
 export interface Order {
   id: string;
   price: number;
